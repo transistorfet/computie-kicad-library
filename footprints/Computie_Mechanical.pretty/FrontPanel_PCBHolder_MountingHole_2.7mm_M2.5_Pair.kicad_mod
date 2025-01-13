@@ -1,0 +1,165 @@
+(footprint "FrontPanel_PCBHolder_MountingHole_2.7mm_M2.5_Pair"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.7mm, no annular, M2.5")
+	(tags "mounting hole 2.7mm no annular m2.5")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7019848c-34eb-4da4-9b06-38692c7eb8b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_2.7mm_M2.5"
+		(at 0 3.7 0)
+		(layer "F.Fab")
+		(uuid "9cb295e9-7d71-4de9-a11f-fb46eb03ae04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72deb55e-6d7c-4172-875c-baba4e0d15df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96944e0b-11f3-4896-b20f-81c6f5f420a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c69985bb-f858-40b4-8471-9f2b56a09309")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 7.62 14.3)
+		(end 10.57 14.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a30ec54b-ea6b-4043-ab0a-c1283d85de9c")
+	)
+	(fp_circle
+		(center 7.62 114.2)
+		(end 10.57 114.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "99025335-2168-48fa-9b53-43102f90bbc5")
+	)
+	(fp_rect
+		(start 2.52 11)
+		(end 12.72 22.1)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill none)
+		(layer "B.Fab")
+		(uuid "dbde00bd-6a1c-41bd-8ef2-c066fcf58b97")
+	)
+	(fp_rect
+		(start 2.52 106.4)
+		(end 12.72 117.5)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill none)
+		(layer "B.Fab")
+		(uuid "333e13c1-1793-4dc5-bab9-6467c73fe798")
+	)
+	(fp_rect
+		(start 2.42 14.25)
+		(end 4.02 114.25)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4b87b24e-2bde-4605-bab3-5c300c6da2df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6bc73baf-f022-43f0-808c-3d20cf46afd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.42 114.2)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "49353016-4bc2-4d2d-9843-69b50af82356")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.62 14.3)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "804ff500-162b-4cce-94ca-394231c2a810")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.62 114.2)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "4b23481c-4cf6-4eb1-9145-26ba99374818")
+	)
+	(pad "" np_thru_hole circle
+		(at 12.82 114.2)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5bf16bca-d99f-4175-9a36-ba8b5acf9ca4")
+	)
+)
